@@ -22,7 +22,7 @@ webpack.config.js文件配置CSS模块
     //4. style-loader：将require('./index.css')中的CSS样式直接注入到主页中的style标签中；
     
 
-###二、webpack-dev-server介绍及配置
+### 二、webpack-dev-server介绍及配置
 webpack-dev-server是webpack官方提供的**一个小型Express服务器**。使用它可以为webpack打包生成的资源文件提供web服务。webpack-dev-server官方文档
 webpack-dev-server 主要提供两个功能：
 
