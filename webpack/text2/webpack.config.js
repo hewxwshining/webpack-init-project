@@ -9,10 +9,10 @@ module.exports = {
 		filename:'[name].bundle.js',
 		publicPath:'/dist/'
 	},
-	// module:{
- //    	loaders:[{
- //    		test:/\.css$/,
- //    		loader: ['style-loader','css-loader']
- //    	}]
- //    }
+	module:{
+    	loaders:[{
+    		test:/\.css$/,
+    		loader: ['style-loader','css-loader']
+    	}]
+    }
 }
